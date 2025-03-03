@@ -31,7 +31,7 @@
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  color: #000;
+  color: #14284b;
   background: #fff;
 }
 #es-rc #es-rc-content * {
@@ -51,4 +51,162 @@
   max-width: 100%;
   display: block;
   margin: 0 auto;
+}
+#es-rc #es-rc-content .es-kv {
+  background: url(../images/kv-bg.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 75px;
+}
+#es-rc #es-rc-content .es-kv__logo {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  max-width: 90%;
+}
+#es-rc #es-rc-content .es-kv__content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#es-rc #es-rc-content .es-kv__title {
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-family: "HurmeGeometricSans3-Black", sans-serif;
+  font-weight: 900;
+  color: inherit;
+}
+#es-rc #es-rc-content .es-kv__subtitle {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+}
+#es-rc #es-rc-content .es-kv__description {
+  margin-bottom: 20px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+}
+#es-rc #es-rc-content .es-kv__packshot {
+  max-width: 30%;
+}
+#es-rc #es-rc-content .es-description {
+  display: flex;
+  flex-direction: column-reverse;
+  background: linear-gradient(to bottom, #72b1c3 50%, #14284b 50%);
+}
+#es-rc #es-rc-content .es-description__left {
+  padding: 30px 10px;
+  padding-left: 0;
+}
+#es-rc #es-rc-content .es-description__right {
+  padding: 30px 10px;
+}
+#es-rc #es-rc-content .es-description__img {
+  margin-top: -80px;
+}
+#es-rc #es-rc-content .es-description__title {
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  font-weight: 700;
+  color: #eeebe6;
+}
+#es-rc #es-rc-content .es-description__subtitle {
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  font-weight: 500;
+  color: #eeebe6;
+}
+#es-rc #es-rc-content .es-style {
+  background: #14284b;
+  padding-bottom: 50px;
+}
+#es-rc #es-rc-content .es-style__title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  color: #ffffff;
+}
+#es-rc #es-rc-content .es-style__subtitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-style__description {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-style__packshot-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-style__img {
+  max-width: 25%;
+}
+#es-rc #es-rc-content .es-style__img--desktop {
+  max-width: 100%;
+  display: none;
+}
+#es-rc #es-rc-content .es-benefits {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(to bottom, #eeebe6 20%, #72b1c3 50%);
+}
+#es-rc #es-rc-content .es-benefits__img {
+  margin-bottom: 30px;
+}
+#es-rc #es-rc-content .es-benefits__title {
+  margin-bottom: 30px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-benefits__subtitle {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: left;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  color: #14284b;
+}
+#es-rc #es-rc-content .es-benefits__content-title {
+  max-width: 230px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: "HurmeGeometricSans3-Bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#es-rc #es-rc-content .es-benefits__content-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+#es-rc #es-rc-content .es-benefits__content-list-item {
+  max-width: 250px;
+}
+#es-rc #es-rc-content .es-benefits__content-list-item-image {
+  margin-bottom: 20px;
+}
+#es-rc #es-rc-content .es-benefits__content-list-item-title {
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: "HurmeGeometricSans3-Regular", sans-serif;
+  color: #ffffff;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
