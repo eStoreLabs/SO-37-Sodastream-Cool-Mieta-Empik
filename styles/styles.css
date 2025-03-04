@@ -14,14 +14,6 @@
   font-family: "HurmeGeometricSans3-Light";
   src: local("HurmeGeometricSans3-Light"), url("./static/fonts/HurmeGeometricSans3-Light.woff2") format("truetype");
 }
-@font-face {
-  font-family: "Gazpacho-Bold";
-  src: local("Gazpacho-Bold"), url("./static/fonts/Gazpacho-Bold.woff2") format("truetype");
-}
-@font-face {
-  font-family: "Gazpacho-Regular";
-  src: local("Gazpacho-Regular"), url("./static/fonts/Gazpacho-Regular.woff2") format("truetype");
-}
 #es-rc #es-rc-content {
   font-family: "HurmeGeometricSans3-Regular", sans-serif, sans-serif;
   font-size: 16px;
