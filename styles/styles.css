@@ -163,7 +163,8 @@
 #es-rc #es-rc-content .es-benefits {
   padding-top: 30px;
   padding-bottom: 30px;
-  background: linear-gradient(to bottom, #eeebe6 20%, #72b1c3 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #eeebe6), color-stop(50%, #72b1c3));
+  background: #72b1c3;
 }
 #es-rc #es-rc-content .es-benefits__img {
   margin-bottom: 30px;
@@ -437,6 +438,19 @@
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 500px) {
+  #es-rc #es-rc-content .es-benefits__content-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  #es-rc #es-rc-content .es-benefits__content-list-item {
+    max-width: 220px;
+  }
+}
 @media screen and (min-width: 567px) {
   #es-rc #es-rc-content .es-description__img {
     max-width: 450px;
@@ -449,6 +463,9 @@
   #es-rc #es-rc-content .es-features__img {
     max-width: 450px;
     margin-left: 0;
+  }
+  #es-rc #es-rc-content .es-design {
+    padding-top: 455px;
   }
   #es-rc #es-rc-content .es-design__left-image {
     max-width: 450px;
@@ -574,6 +591,8 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
+    max-width: none;
+    flex-wrap: nowrap;
   }
   #es-rc #es-rc-content .es-benefits__content-title--2 {
     max-width: 320px;

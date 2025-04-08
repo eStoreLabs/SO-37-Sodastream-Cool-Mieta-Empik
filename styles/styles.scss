@@ -5,16 +5,19 @@
   src: local('HurmeGeometricSans3-Bold'),
     url('./static/fonts/HurmeGeometricSans3-Bold.woff2') format('truetype');
 }
+
 @font-face {
   font-family: 'HurmeGeometricSans3-Regular';
   src: local('HurmeGeometricSans3-Regular'),
     url('./static/fonts/HurmeGeometricSans3-Regular.woff2') format('truetype');
 }
+
 @font-face {
   font-family: 'HurmeGeometricSans3-Black';
   src: local('HurmeGeometricSans3-Black'),
     url('./static/fonts/HurmeGeometricSans3-Black.woff2') format('truetype');
 }
+
 @font-face {
   font-family: 'HurmeGeometricSans3-Light';
   src: local('HurmeGeometricSans3-Light'),
@@ -118,13 +121,11 @@ $bg-fourtiary: #e5dcd3;
     -webkit-box-direction: reverse;
     flex-direction: column-reverse;
 
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(50%, $bg-tertiary),
-      color-stop(50%, $bg-primary)
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        color-stop(50%, $bg-tertiary),
+        color-stop(50%, $bg-primary));
 
     background: linear-gradient(to bottom, $bg-tertiary 50%, $bg-primary 50%);
 
@@ -220,14 +221,12 @@ $bg-fourtiary: #e5dcd3;
   .es-benefits {
     padding-top: 30px;
     padding-bottom: 30px;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(20%, $bg-secondary),
-      color-stop(50%, $bg-tertiary)
-    );
-    background: linear-gradient(to bottom, $bg-secondary 20%, $bg-tertiary 50%);
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        color-stop(20%, $bg-secondary),
+        color-stop(50%, $bg-tertiary));
+    background: $bg-tertiary;
 
     &__img {
       margin-bottom: 30px;
@@ -280,6 +279,7 @@ $bg-fourtiary: #e5dcd3;
       align-items: center;
       gap: 30px;
     }
+
     &__content-list-item {
       max-width: 250px;
     }
@@ -302,13 +302,11 @@ $bg-fourtiary: #e5dcd3;
 
   .es-features {
     margin-top: -1px;
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(10%, #72b1c3),
-      color-stop(10%, #eeebe6)
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        color-stop(10%, #72b1c3),
+        color-stop(10%, #eeebe6));
     background: linear-gradient(to bottom, #72b1c3 10%, #eeebe6 10%);
 
     &__bottle-content {
@@ -461,18 +459,14 @@ $bg-fourtiary: #e5dcd3;
   }
 
   .es-design {
-    background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      color-stop(95%, $bg-fourtiary),
-      color-stop(10%, $bg-secondary)
-    );
-    background: linear-gradient(
-      to bottom,
-      $bg-fourtiary 95%,
-      $bg-secondary 10%
-    );
+    background: -webkit-gradient(linear,
+        left top,
+        left bottom,
+        color-stop(95%, $bg-fourtiary),
+        color-stop(10%, $bg-secondary));
+    background: linear-gradient(to bottom,
+        $bg-fourtiary 95%,
+        $bg-secondary 10%);
     padding-top: 100%;
     position: relative;
     padding-bottom: 30px;
@@ -587,6 +581,23 @@ $bg-fourtiary: #e5dcd3;
     }
   }
 
+  @media screen and (min-width: 500px) {
+    .es-benefits {
+      &__content-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      &__content-list-item {
+        max-width: 220px;
+      }
+    }
+  }
+
   @media screen and (min-width: 567px) {
     .es-description {
       &__img {
@@ -610,6 +621,8 @@ $bg-fourtiary: #e5dcd3;
     }
 
     .es-design {
+      padding-top: 455px;
+
       &__left-image {
         max-width: 450px;
         margin-left: 0;
@@ -672,13 +685,11 @@ $bg-fourtiary: #e5dcd3;
       flex-direction: row;
       -webkit-box-pack: justify;
       justify-content: space-between;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(85%, #72b1c3),
-        color-stop(50%, #14284b)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(85%, #72b1c3),
+          color-stop(50%, #14284b));
       background: linear-gradient(to bottom, #72b1c3 85%, #14284b 50%);
 
       &__right {
@@ -695,13 +706,11 @@ $bg-fourtiary: #e5dcd3;
     }
 
     .es-style {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(75%, #14284b),
-        color-stop(50%, #eeebe6)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(75%, #14284b),
+          color-stop(50%, #eeebe6));
       background: linear-gradient(to bottom, #14284b 75%, #eeebe6 50%);
       padding-bottom: 0;
 
@@ -755,13 +764,11 @@ $bg-fourtiary: #e5dcd3;
 
     .es-benefits {
       padding-top: 0;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(41%, #eeebe6),
-        color-stop(30%, #72b1c3)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(41%, #eeebe6),
+          color-stop(30%, #72b1c3));
       background: linear-gradient(to bottom, #eeebe6 41%, #72b1c3 30%);
 
       &__title {
@@ -792,6 +799,8 @@ $bg-fourtiary: #e5dcd3;
         align-items: flex-start;
         -webkit-box-pack: center;
         justify-content: center;
+        max-width: none;
+        flex-wrap: nowrap;
       }
 
       &__content-title {
@@ -911,6 +920,7 @@ $bg-fourtiary: #e5dcd3;
           order: 2;
         }
       }
+
       &__single-description {
         font-size: 18px;
 
@@ -1176,13 +1186,11 @@ $bg-fourtiary: #e5dcd3;
     }
 
     .es-description {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(78%, #72b1c3),
-        color-stop(50%, #14284b)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(78%, #72b1c3),
+          color-stop(50%, #14284b));
       background: linear-gradient(to bottom, #72b1c3 78%, #14284b 50%);
 
       &__img {
@@ -1207,13 +1215,11 @@ $bg-fourtiary: #e5dcd3;
 
     .es-style {
       margin-top: -90px;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(80%, #14284b),
-        color-stop(50%, #eeebe6)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(80%, #14284b),
+          color-stop(50%, #eeebe6));
       background: linear-gradient(to bottom, #14284b 80%, #eeebe6 50%);
 
       &__title {
@@ -1233,6 +1239,7 @@ $bg-fourtiary: #e5dcd3;
       &__packshot-desktop-title {
         max-width: 100%;
         font-size: 36px;
+
         &--1 {
           top: 40%;
           left: 7%;
@@ -1270,13 +1277,11 @@ $bg-fourtiary: #e5dcd3;
     }
 
     .es-benefits {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(46%, #eeebe6),
-        color-stop(30%, #72b1c3)
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(46%, #eeebe6),
+          color-stop(30%, #72b1c3));
       background: linear-gradient(to bottom, #eeebe6 46%, #72b1c3 30%);
 
       &__img {
