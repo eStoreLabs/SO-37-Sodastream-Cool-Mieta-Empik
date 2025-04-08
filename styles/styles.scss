@@ -375,6 +375,57 @@ $bg-fourtiary: #e5dcd3;
     background: $bg-secondary;
     padding-bottom: 50px;
 
+    &__group {
+      position: relative;
+    }
+
+    &__label {
+      position: absolute;
+      font-family: $font-regular;
+      font-size: clamp(8px, 2.5vw, 30px);
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+      width: clamp(50px, 20vw, 250px);
+      height: clamp(50px, 20vw, 250px);
+      border-radius: 50%;
+      background-color: #e46c5c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 10px;
+      line-height: 1.2;
+      top: 38%;
+      right: 22%;
+    }
+
+    &__text {
+      position: absolute;
+      font-family: $font-bold;
+      font-size: 20px;
+      font-size: clamp(18px, 5vw, 70px);
+      font-weight: 700;
+      color: #fff;
+      opacity: 0.8;
+
+
+      &--first {
+        top: 5%;
+        left: 10%;
+      }
+
+      &--second {
+        top: 5%;
+        left: 40%;
+      }
+
+      &--third {
+        top: 5%;
+        right: 3%;
+      }
+    }
+
     &__image {
       margin-bottom: 30px;
     }
